@@ -55,10 +55,10 @@ numberedSubtitles = true
 
   [params.buymeacoffee]
   code = """
-  <script async data-name="BMC-Widget" 
-        data-cfasync="true" 
+  <script async data-name="" 
+        data-cfasync="false" 
         src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" 
-        data-id="michaelneuper" 
+        data-id="" 
         data-description="Like what I do? Buy me a coffee!" 
         data-message="" 
         data-color="#d79921" 
@@ -70,7 +70,7 @@ numberedSubtitles = true
   """
 
   [params.sharingbuttons]
-  facebook = false
+  facebook = true
   twitter = true
   email = false
   linkedin = true
