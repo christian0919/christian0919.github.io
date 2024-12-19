@@ -70,7 +70,7 @@ numberedSubtitles = true
   """
 
   [params.sharingbuttons]
-  facebook = fals
+  facebook = false
   twitter = true
   email = false
   linkedin = true
