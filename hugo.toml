@@ -1,0 +1,75 @@
+baseURL = "https://christian0919.github.io/"
+disqusShortname = ""
+enableGitInfo = true
+enableRobotsTXT = true
+hasCJKLanguage = true
+languageCode = "en"
+rssLimit = 10
+theme = "hugo-texify3"
+title = "Init 0"
+
+[pagination]
+pagerSize = 5
+
+
+[module]
+  [module.hugoVersion]
+    min = "0.113.0"
+
+[[menu.main]]
+identifier = "post"
+name = "Posts"
+url = "/"
+weight = 1
+[[menu.main]]
+identifier = "archives"
+name = "Archive"
+url = "/post/"
+weight = 2
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 3
+
+[taxonomies]
+tags = "tags"
+categories = "categories"
+
+[params]
+title="Init 0"
+description = "personal blog"
+images = ['images/logo.jpg']
+footnote = """
+footnote"""
+keywords = ["hugo", "latex", "theme", "blog", "texify", "texify2", "weastur"]
+customCSS = []
+customJS = []
+dateFormat = "January 2, 2006"
+emphasisWithDots = true
+since = "2024"
+toc = false
+showWordCount = true
+showReadingTime = true
+rootFontSize = "120%"
+math = true
+enableDuckDuckGoSearchBox = true
+numberedSubtitles = false
+
+[params.commentEngine]
+code = """
+"""
+
+[params.buymeacoffee]
+code = """
+"""
+
+[params.sharingbuttons]
+facebook = true
+twitter = true
+email = true
+linkedin = true
+reddit = true
+whatsapp = true
+hackernews = true
+telegram = true
