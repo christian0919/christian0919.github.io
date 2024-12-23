@@ -17,20 +17,26 @@ pagerSize = 5
     min = "0.113.0"
 
 [[menu.main]]
-identifier = "post"
-name = "Posts"
+identifier = "Home"
+name = "Home"
 url = "/"
+pre = """
+<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 12 8-8 8 8M6 10.5V19a1 1 0 0 0 1 1h3v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h3a1 1 0 0 0 1-1v-8.5"/>
+</svg>
+"""
 weight = 1
 [[menu.main]]
-identifier = "archives"
-name = "Archive"
-url = "/post/"
+identifier = "Blog"
+name = "Blog"
+url = "/posts/"
+pre= """
+<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+<path fill-rule="evenodd" d="M6 2a2 2 0 0 0-2 2v15a3 3 0 0 0 3 3h12a1 1 0 1 0 0-2h-2v-2h2a1 1 0 0 0 1-1V4a2 2 0 0 0-2-2h-8v16h5v2H7a1 1 0 1 1 0-2h1V2H6Z" clip-rule="evenodd"/>
+</svg>
+"""
 weight = 2
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 3
+
 
 [taxonomies]
 tags = "tags"
@@ -51,7 +57,7 @@ since = "2024"
 toc = false
 showWordCount = true
 showReadingTime = true
-rootFontSize = "120%"
+rootFontSize = "110%"
 math = true
 enableDuckDuckGoSearchBox = true
 numberedSubtitles = false
@@ -65,11 +71,11 @@ code = """
 """
 
 [params.sharingbuttons]
-facebook = true
-twitter = true
-email = true
-linkedin = true
-reddit = true
-whatsapp = true
-hackernews = true
-telegram = true
+facebook = false
+twitter = false
+email = false
+linkedin = false
+reddit = false
+whatsapp = false
+hackernews = false
+telegram = false
